@@ -6,7 +6,7 @@ import os
 import sys
 import errno
 import stat
-import libzfs_core
+#import libzfs_core
 import simplezfs
 
 from fuse import FUSE, FuseOSError, Operations, fuse_get_context
