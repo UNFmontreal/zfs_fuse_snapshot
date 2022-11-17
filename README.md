@@ -1,9 +1,8 @@
-# python-fuse-sample
+# ZFS Fuse Snapshot (ZFS fs) 
 
-This repo contains a very simple FUSE filesystem example in Python. It's the
-code from a post I wrote a while back:
+List ZFS incremental snapshots as file through a basic Python fuse driver.
+Read-only access to snapshots for backups
 
-https://www.stavros.io/posts/python-fuse-filesystem/
-
-If you see anything needing improvement or have any feedback, please open an
-issue.
+```
+sudo python3 zfs_fuse_snapshot.py zpool01 path/to/mountpoint
+```
